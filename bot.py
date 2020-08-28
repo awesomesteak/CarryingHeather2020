@@ -1,4 +1,4 @@
-import curses
+# import curses
 from gpiozero import Motor, Servo
 from time import sleep
 xMotor = Motor(forward=7, backward=0)
