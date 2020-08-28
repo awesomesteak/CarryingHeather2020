@@ -6,7 +6,7 @@ xMotor = Motor(forward=7, backward=0)
 # triggerServo = Servo(1)
 
 while True:
-  motor.forward()
+  xMotor.forward()
   sleep(5)
-  motor.backward()
+  xMotor.backward()
   sleep(5)
